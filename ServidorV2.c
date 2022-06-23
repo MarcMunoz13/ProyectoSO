@@ -235,7 +235,12 @@ void *AtenderCliente (void *socket)
 			}
 			else
 			{
+				
+			
+				pthread_mutex_lock (&mutex);//no interrumpas ahora
 				int res = PonConectado(&miLista, nick, sock_conn);
+				pthread_mutex_unlock ( &mutex); //puedes interrumpir
+
 				if (res == 0)
 				{ 
 					printf("%s ha sido a￱adido a la lista de usuarios conectados\n", nick); 
@@ -249,7 +254,7 @@ void *AtenderCliente (void *socket)
 //--------------------------------Consulta QUE JUGADORES JUGARON ESTE DￍA------------------------------------------------
 		else if (codigo ==2)
 		{
-			printf("%s aqui tienes el resultado cabron", resultado);
+			
 			char fecha[30];
 			p = strtok(NULL, "/"); 
 			strcpy(fecha,p);
@@ -369,13 +374,6 @@ void *AtenderCliente (void *socket)
 			write (sock_conn,respuesta , strlen(respuesta));
 		}
 		
-		
-		if ((codigo==1)||(codigo==2)||(codigo==4))
-		{
-			pthread_mutex_lock (&mutex);//no interrumpas ahora
-			contador=contador+1;
-			pthread_mutex_unlock ( &mutex); //puedes interrumpir
-		}
 		
 	}
 	close(sock_conn); 
