@@ -41,6 +41,10 @@ CREATE TABLE partidas(
 
 
 
+
+
+
+
 CREATE TABLE datos(
 
     idJ1 INT NOT NULL,
@@ -60,6 +64,9 @@ CREATE TABLE datos(
 
 
 )ENGINE=InnoDB;
+
+
+
 
 
 
@@ -92,26 +99,29 @@ SELECT * FROM jugadores;
 
 
 
-INSERT INTO partidas (id, Ganador, Fecha, Hora, Duracion)
-
-VALUES (1,'manolin','27-11-2016', '10:56', 1.56); 
-
 
 
 INSERT INTO partidas (id, Ganador, Fecha, Hora, Duracion)
 
-VALUES (2,'munyi','13-08-2021', '23:51', 3.04); 
+VALUES (1,'Manolo','27-11-2016', '10:56', 1.56); 
 
 
 
 INSERT INTO partidas (id, Ganador, Fecha, Hora, Duracion)
 
-VALUES (3,'manolin','14-01-2022', '06:10', 6.35); 
+VALUES (2,'Marc','13-08-2021', '23:51', 3.04); 
+
 
 
 INSERT INTO partidas (id, Ganador, Fecha, Hora, Duracion)
 
-VALUES (4,'titi','03-03-2022', '19:19', 9.2); 
+VALUES (3,'Manolo','14-01-2022', '06:10', 6.35); 
+
+
+
+INSERT INTO partidas (id, Ganador, Fecha, Hora, Duracion)
+
+VALUES (4,'Carles','03-03-2022', '19:19', 9.2); 
 
 
 
@@ -126,6 +136,7 @@ SELECT * FROM partidas;
 INSERT INTO datos (idJ1, idJ2, idP, Puntos)
 
 VALUES (3, 4, 1, 5); 
+
 
 
 INSERT INTO datos (idJ1, idJ2, idP, Puntos)
@@ -144,3 +155,8 @@ INSERT INTO datos (idJ1, idJ2, idP, Puntos)
 
 VALUES (4, 2, 4, 5); 
 
+
+
+
+
+SELECT * FROM datos;

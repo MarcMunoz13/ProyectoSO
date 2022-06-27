@@ -113,11 +113,53 @@ C:\ProyectoSO\EjercicioGuia\MiEjercicioGuia\clienteEjercicioGuia\WindowsFormsApp
 C:\ProyectoSO\EjercicioGuia\MiEjercicioGuia\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
 C:\ProyectoSO\EjercicioGuia\MiEjercicioGuia\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
 C:\ProyectoSO\EjercicioGuia\MiEjercicioGuia\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.GenerateResource.Cache
-C:\Users\marcm\Desktop\git EG\ProyectoSO\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
-C:\Users\marcm\Desktop\git EG\ProyectoSO\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
-C:\Users\marcm\Desktop\git EG\ProyectoSO\clienteEjercicioGuia\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
-C:\Users\marcm\Desktop\git EG\ProyectoSO\clienteEjercicioGuia\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
-C:\Users\marcm\Desktop\git EG\ProyectoSO\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\clienteForm.csprojResolveAssemblyReference.cache
-C:\Users\marcm\Desktop\git EG\ProyectoSO\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
-C:\Users\marcm\Desktop\git EG\ProyectoSO\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
-C:\Users\marcm\Desktop\git EG\ProyectoSO\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.GenerateResource.Cache
+C:\ProyectoSO\EjercicioGuia\MiEejercicioGuia\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\ProyectoSO\EjercicioGuia\MiEejercicioGuia\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\ProyectoSO\EjercicioGuia\MiEejercicioGuia\clienteEjercicioGuia\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\ProyectoSO\EjercicioGuia\MiEejercicioGuia\clienteEjercicioGuia\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\ProyectoSO\EjercicioGuia\MiEejercicioGuia\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\clienteForm.csprojResolveAssemblyReference.cache
+C:\ProyectoSO\EjercicioGuia\MiEejercicioGuia\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\ProyectoSO\EjercicioGuia\MiEejercicioGuia\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\ProyectoSO\EjercicioGuia\MiEejercicioGuia\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.GenerateResource.Cache
+C:\Users\bcn\OneDrive\Escritorio\v3\copia segur\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\bcn\OneDrive\Escritorio\v3\copia segur\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\bcn\OneDrive\Escritorio\v3\copia segur\clienteEjercicioGuia\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\bcn\OneDrive\Escritorio\v3\copia segur\clienteEjercicioGuia\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\bcn\OneDrive\Escritorio\v3\copia segur\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\clienteForm.csprojResolveAssemblyReference.cache
+C:\Users\bcn\OneDrive\Escritorio\v3\copia segur\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\bcn\OneDrive\Escritorio\v3\copia segur\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\bcn\OneDrive\Escritorio\v3\copia segur\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.GenerateResource.Cache
+E:\users\Titi\UPC\22\SO\v3\copia segur\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+E:\users\Titi\UPC\22\SO\v3\copia segur\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+E:\users\Titi\UPC\22\SO\v3 titi\copia segur\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+E:\users\Titi\UPC\22\SO\v3 titi\copia segur\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\bcn\OneDrive\Escritorio\v3 titi\copia segur\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\bcn\OneDrive\Escritorio\v3 titi\copia segur\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\bcn\OneDrive\Escritorio\v3 titi\copia segur\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\clienteForm.csprojResolveAssemblyReference.cache
+C:\Users\bcn\OneDrive\Escritorio\v3 titi\copia segur\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\bcn\OneDrive\Escritorio\v3 titi\copia segur\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\bcn\OneDrive\Escritorio\v3 titi\copia segur\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.GenerateResource.Cache
+C:\Users\bcn\OneDrive\Escritorio\v3 titi\copia segur\clienteEjercicioGuia\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\bcn\OneDrive\Escritorio\v3 titi\copia segur\clienteEjercicioGuia\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+E:\users\Titi\UPC\22\SO\v3 titi\copia segur\clienteEjercicioGuia\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+E:\users\Titi\UPC\22\SO\v3 titi\copia segur\clienteEjercicioGuia\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+E:\users\Titi\UPC\22\SO\v3 titi\copia segur\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\clienteForm.csprojResolveAssemblyReference.cache
+E:\users\Titi\UPC\22\SO\v3 titi\copia segur\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+E:\users\Titi\UPC\22\SO\v3 titi\copia segur\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+E:\users\Titi\UPC\22\SO\v3 titi\copia segur\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.GenerateResource.Cache
+E:\users\Titi\UPC\22\SO\V3 Mejorada\copia segur\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+E:\users\Titi\UPC\22\SO\V3 Mejorada\copia segur\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+E:\users\Titi\UPC\22\SO\V3 Mejorada\copia segur\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\clienteForm.csprojResolveAssemblyReference.cache
+E:\users\Titi\UPC\22\SO\V3 Mejorada\copia segur\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+E:\users\Titi\UPC\22\SO\V3 Mejorada\copia segur\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+E:\users\Titi\UPC\22\SO\V3 Mejorada\copia segur\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.GenerateResource.Cache
+E:\users\Titi\UPC\22\SO\V3 Mejorada\copia segur\clienteEjercicioGuia\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+E:\users\Titi\UPC\22\SO\V3 Mejorada\copia segur\clienteEjercicioGuia\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\marcm\Desktop\v final titi\V3 Mejorada\copia segur\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\marcm\Desktop\v final titi\V3 Mejorada\copia segur\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\marcm\Desktop\v final titi\V3 Mejorada\copia segur\clienteEjercicioGuia\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\marcm\Desktop\v final titi\V3 Mejorada\copia segur\clienteEjercicioGuia\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\marcm\Desktop\v final titi\V3 Mejorada\copia segur\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\clienteForm.csprojResolveAssemblyReference.cache
+C:\Users\marcm\Desktop\v final titi\V3 Mejorada\copia segur\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\marcm\Desktop\v final titi\V3 Mejorada\copia segur\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\marcm\Desktop\v final titi\V3 Mejorada\copia segur\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.GenerateResource.Cache
