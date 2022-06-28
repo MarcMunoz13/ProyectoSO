@@ -1,9 +1,7 @@
-Desarrollado por Marc Muñoz
+Desarrollado por carles
+
+Revisión marc muñoz
 
 
-Revisión Carles Sánchez
-
-
-Vídeo Marc Muñoz
-
-https://drive.google.com/file/d/17Gru-Omdl-9I-US2VG-w9_RVrMSEE3Pu/view?usp=sharing
+Vídeo carles
+https://drive.google.com/file/d/1_emRXAL6iZ2ubV5Qs6bZlycKaAV7fFLM/view?usp=sharing
