@@ -37,22 +37,6 @@
             this.Consulta = new System.Windows.Forms.TextBox();
             this.Consultar = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.EnablePassword = new System.Windows.Forms.Button();
-            this.InvitarButton = new System.Windows.Forms.Button();
-            this.UsuarioEliminado = new System.Windows.Forms.TextBox();
-            this.EliminarUsuario = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.password_conf = new System.Windows.Forms.TextBox();
-            this.ListaConectados = new System.Windows.Forms.DataGridView();
-            this.RegistrarButton = new System.Windows.Forms.Button();
-            this.SumaDuracion = new System.Windows.Forms.RadioButton();
-            this.LogInButton = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.Nick = new System.Windows.Forms.Label();
-            this.password = new System.Windows.Forms.TextBox();
-            this.nickname = new System.Windows.Forms.TextBox();
-            this.DimeJugadores = new System.Windows.Forms.RadioButton();
             this.Invitacion = new System.Windows.Forms.GroupBox();
             this.Label_Invitacion = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -61,33 +45,52 @@
             this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
+            this.Bienvenido = new System.Windows.Forms.Label();
+            this.EnablePassword = new System.Windows.Forms.Button();
+            this.InvitarButton = new System.Windows.Forms.Button();
+            this.UsuarioEliminado = new System.Windows.Forms.TextBox();
+            this.EliminarUsuario = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.password_conf = new System.Windows.Forms.TextBox();
+            this.ListaConectados = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.RegistrarButton = new System.Windows.Forms.Button();
+            this.SumaDuracion = new System.Windows.Forms.RadioButton();
+            this.LogInButton = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.Nick = new System.Windows.Forms.Label();
+            this.password = new System.Windows.Forms.TextBox();
+            this.nickname = new System.Windows.Forms.TextBox();
+            this.DimeJugadores = new System.Windows.Forms.RadioButton();
             this.Desconectar = new System.Windows.Forms.Button();
             this.ConectarButton = new System.Windows.Forms.Button();
             this.Chat = new System.Windows.Forms.GroupBox();
+            this.ChatLbl = new System.Windows.Forms.Label();
+            this.Recibidos = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ChatDescon = new System.Windows.Forms.Button();
             this.Enviados = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.EnviarMensaje = new System.Windows.Forms.Button();
             this.MensajeChat = new System.Windows.Forms.TextBox();
-            this.ChatLbl = new System.Windows.Forms.Label();
             this.Host = new System.Windows.Forms.Label();
-            this.Invitado = new System.Windows.Forms.Label();
-            this.Recibidos = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Bienvenido = new System.Windows.Forms.Label();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Nick1 = new System.Windows.Forms.Label();
+            this.Nick2 = new System.Windows.Forms.Label();
+            this.Nick3 = new System.Windows.Forms.Label();
+            this.Cont = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ListaConectados)).BeginInit();
             this.Invitacion.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ListaConectados)).BeginInit();
             this.Chat.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Enviados)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Recibidos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Enviados)).BeginInit();
             this.SuspendLayout();
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label2.Location = new System.Drawing.Point(19, 144);
@@ -124,7 +127,8 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox1.Controls.Add(this.Invitacion);
             this.groupBox1.Controls.Add(this.Bienvenido);
             this.groupBox1.Controls.Add(this.EnablePassword);
             this.groupBox1.Controls.Add(this.InvitarButton);
@@ -145,7 +149,7 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.Consultar);
             this.groupBox1.Controls.Add(this.Consulta);
-            this.groupBox1.Location = new System.Drawing.Point(16, 89);
+            this.groupBox1.Location = new System.Drawing.Point(16, 65);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
@@ -153,6 +157,107 @@
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             this.groupBox1.Visible = false;
+            // 
+            // Invitacion
+            // 
+            this.Invitacion.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Invitacion.Controls.Add(this.Label_Invitacion);
+            this.Invitacion.Controls.Add(this.label5);
+            this.Invitacion.Controls.Add(this.Rechazar);
+            this.Invitacion.Controls.Add(this.Aceptar);
+            this.Invitacion.Controls.Add(this.button1);
+            this.Invitacion.Controls.Add(this.textBox1);
+            this.Invitacion.Controls.Add(this.button2);
+            this.Invitacion.Location = new System.Drawing.Point(214, 70);
+            this.Invitacion.Margin = new System.Windows.Forms.Padding(4);
+            this.Invitacion.Name = "Invitacion";
+            this.Invitacion.Padding = new System.Windows.Forms.Padding(4);
+            this.Invitacion.Size = new System.Drawing.Size(595, 280);
+            this.Invitacion.TabIndex = 30;
+            this.Invitacion.TabStop = false;
+            this.Invitacion.Visible = false;
+            // 
+            // Label_Invitacion
+            // 
+            this.Label_Invitacion.AutoSize = true;
+            this.Label_Invitacion.Location = new System.Drawing.Point(387, 92);
+            this.Label_Invitacion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Label_Invitacion.Name = "Label_Invitacion";
+            this.Label_Invitacion.Size = new System.Drawing.Size(37, 17);
+            this.Label_Invitacion.TabIndex = 28;
+            this.Label_Invitacion.Text = "Hola";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(185, 92);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(209, 17);
+            this.label5.TabIndex = 31;
+            this.label5.Text = "Has sido invitado a chatear por ";
+            // 
+            // Rechazar
+            // 
+            this.Rechazar.Location = new System.Drawing.Point(318, 130);
+            this.Rechazar.Margin = new System.Windows.Forms.Padding(4);
+            this.Rechazar.Name = "Rechazar";
+            this.Rechazar.Size = new System.Drawing.Size(180, 57);
+            this.Rechazar.TabIndex = 30;
+            this.Rechazar.Text = "RECHAZAR";
+            this.Rechazar.UseVisualStyleBackColor = true;
+            this.Rechazar.Click += new System.EventHandler(this.Rechazar_Click);
+            // 
+            // Aceptar
+            // 
+            this.Aceptar.Location = new System.Drawing.Point(113, 130);
+            this.Aceptar.Margin = new System.Windows.Forms.Padding(4);
+            this.Aceptar.Name = "Aceptar";
+            this.Aceptar.Size = new System.Drawing.Size(180, 57);
+            this.Aceptar.TabIndex = 29;
+            this.Aceptar.Text = "ACEPTAR";
+            this.Aceptar.UseVisualStyleBackColor = true;
+            this.Aceptar.Click += new System.EventHandler(this.Aceptar_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(269, 358);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(84, 22);
+            this.button1.TabIndex = 20;
+            this.button1.Text = "Invitar";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(614, 342);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(168, 22);
+            this.textBox1.TabIndex = 27;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(817, 336);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(131, 34);
+            this.button2.TabIndex = 26;
+            this.button2.Text = "Eliminar Usuario";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // Bienvenido
+            // 
+            this.Bienvenido.AutoSize = true;
+            this.Bienvenido.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Bienvenido.Location = new System.Drawing.Point(315, 46);
+            this.Bienvenido.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Bienvenido.Name = "Bienvenido";
+            this.Bienvenido.Size = new System.Drawing.Size(404, 69);
+            this.Bienvenido.TabIndex = 32;
+            this.Bienvenido.Text = "Bienvenido titi";
+            this.Bienvenido.Visible = false;
             // 
             // EnablePassword
             // 
@@ -170,7 +275,7 @@
             this.InvitarButton.Location = new System.Drawing.Point(242, 358);
             this.InvitarButton.Margin = new System.Windows.Forms.Padding(4);
             this.InvitarButton.Name = "InvitarButton";
-            this.InvitarButton.Size = new System.Drawing.Size(84, 22);
+            this.InvitarButton.Size = new System.Drawing.Size(84, 30);
             this.InvitarButton.TabIndex = 20;
             this.InvitarButton.Text = "Invitar";
             this.InvitarButton.UseVisualStyleBackColor = true;
@@ -230,8 +335,8 @@
             // ListaConectados
             // 
             this.ListaConectados.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.ListaConectados.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ListaConectados.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.ListaConectados.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.Disable;
             dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
             dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -265,9 +370,16 @@
             this.ListaConectados.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.ListaConectados.RowHeadersVisible = false;
             this.ListaConectados.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
+            this.ListaConectados.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.ListaConectados.Size = new System.Drawing.Size(301, 175);
             this.ListaConectados.TabIndex = 22;
             this.ListaConectados.Visible = false;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Conectados";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
             // 
             // RegistrarButton
             // 
@@ -355,98 +467,9 @@
             this.DimeJugadores.UseVisualStyleBackColor = true;
             this.DimeJugadores.Visible = false;
             // 
-            // Invitacion
-            // 
-            this.Invitacion.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.Invitacion.Controls.Add(this.Label_Invitacion);
-            this.Invitacion.Controls.Add(this.label5);
-            this.Invitacion.Controls.Add(this.Rechazar);
-            this.Invitacion.Controls.Add(this.Aceptar);
-            this.Invitacion.Controls.Add(this.button1);
-            this.Invitacion.Controls.Add(this.textBox1);
-            this.Invitacion.Controls.Add(this.button2);
-            this.Invitacion.Location = new System.Drawing.Point(180, 42);
-            this.Invitacion.Margin = new System.Windows.Forms.Padding(4);
-            this.Invitacion.Name = "Invitacion";
-            this.Invitacion.Padding = new System.Windows.Forms.Padding(4);
-            this.Invitacion.Size = new System.Drawing.Size(595, 280);
-            this.Invitacion.TabIndex = 30;
-            this.Invitacion.TabStop = false;
-            this.Invitacion.Visible = false;
-            // 
-            // Label_Invitacion
-            // 
-            this.Label_Invitacion.AutoSize = true;
-            this.Label_Invitacion.Location = new System.Drawing.Point(387, 92);
-            this.Label_Invitacion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.Label_Invitacion.Name = "Label_Invitacion";
-            this.Label_Invitacion.Size = new System.Drawing.Size(37, 17);
-            this.Label_Invitacion.TabIndex = 28;
-            this.Label_Invitacion.Text = "Hola";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(185, 92);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(209, 17);
-            this.label5.TabIndex = 31;
-            this.label5.Text = "Has sido invitado a chatear por ";
-            // 
-            // Rechazar
-            // 
-            this.Rechazar.Location = new System.Drawing.Point(318, 130);
-            this.Rechazar.Margin = new System.Windows.Forms.Padding(4);
-            this.Rechazar.Name = "Rechazar";
-            this.Rechazar.Size = new System.Drawing.Size(180, 57);
-            this.Rechazar.TabIndex = 30;
-            this.Rechazar.Text = "RECHAZAR";
-            this.Rechazar.UseVisualStyleBackColor = true;
-            this.Rechazar.Click += new System.EventHandler(this.Rechazar_Click);
-            // 
-            // Aceptar
-            // 
-            this.Aceptar.Location = new System.Drawing.Point(113, 130);
-            this.Aceptar.Margin = new System.Windows.Forms.Padding(4);
-            this.Aceptar.Name = "Aceptar";
-            this.Aceptar.Size = new System.Drawing.Size(180, 57);
-            this.Aceptar.TabIndex = 29;
-            this.Aceptar.Text = "ACEPTAR";
-            this.Aceptar.UseVisualStyleBackColor = true;
-            this.Aceptar.Click += new System.EventHandler(this.Aceptar_Click);
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(269, 358);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(84, 22);
-            this.button1.TabIndex = 20;
-            this.button1.Text = "Invitar";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(614, 342);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(168, 22);
-            this.textBox1.TabIndex = 27;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(817, 336);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(131, 34);
-            this.button2.TabIndex = 26;
-            this.button2.Text = "Eliminar Usuario";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
             // Desconectar
             // 
-            this.Desconectar.Location = new System.Drawing.Point(380, 497);
+            this.Desconectar.Location = new System.Drawing.Point(397, 497);
             this.Desconectar.Margin = new System.Windows.Forms.Padding(4);
             this.Desconectar.Name = "Desconectar";
             this.Desconectar.Size = new System.Drawing.Size(213, 44);
@@ -460,10 +483,10 @@
             // 
             this.ConectarButton.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.ConectarButton.Image = global::WindowsFormsApplication1.Properties.Resources.messenger_logo_icon_png_31773;
-            this.ConectarButton.Location = new System.Drawing.Point(16, 15);
+            this.ConectarButton.Location = new System.Drawing.Point(-1, -3);
             this.ConectarButton.Margin = new System.Windows.Forms.Padding(4);
             this.ConectarButton.Name = "ConectarButton";
-            this.ConectarButton.Size = new System.Drawing.Size(956, 488);
+            this.ConectarButton.Size = new System.Drawing.Size(896, 506);
             this.ConectarButton.TabIndex = 9;
             this.ConectarButton.Text = "Conectarse";
             this.ConectarButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -472,23 +495,66 @@
             // 
             // Chat
             // 
-            this.Chat.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.Chat.BackColor = System.Drawing.Color.Transparent;
+            this.Chat.Controls.Add(this.ChatLbl);
             this.Chat.Controls.Add(this.Recibidos);
             this.Chat.Controls.Add(this.ChatDescon);
             this.Chat.Controls.Add(this.Enviados);
             this.Chat.Controls.Add(this.EnviarMensaje);
             this.Chat.Controls.Add(this.MensajeChat);
-            this.Chat.Controls.Add(this.ChatLbl);
-            this.Chat.Location = new System.Drawing.Point(23, 29);
+            this.Chat.Location = new System.Drawing.Point(-1, -3);
             this.Chat.Name = "Chat";
-            this.Chat.Size = new System.Drawing.Size(732, 329);
+            this.Chat.Size = new System.Drawing.Size(896, 506);
             this.Chat.TabIndex = 32;
             this.Chat.TabStop = false;
             this.Chat.Visible = false;
             // 
+            // ChatLbl
+            // 
+            this.ChatLbl.AutoSize = true;
+            this.ChatLbl.Location = new System.Drawing.Point(18, 24);
+            this.ChatLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.ChatLbl.Name = "ChatLbl";
+            this.ChatLbl.Size = new System.Drawing.Size(145, 17);
+            this.ChatLbl.TabIndex = 32;
+            this.ChatLbl.Text = "Estas chateando con:";
+            // 
+            // Recibidos
+            // 
+            this.Recibidos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.Recibidos.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.Recibidos.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Recibidos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.Recibidos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn2});
+            this.Recibidos.Enabled = false;
+            this.Recibidos.GridColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Recibidos.Location = new System.Drawing.Point(32, 44);
+            this.Recibidos.Name = "Recibidos";
+            this.Recibidos.ReadOnly = true;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Recibidos.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
+            this.Recibidos.RowHeadersVisible = false;
+            this.Recibidos.RowTemplate.Height = 24;
+            this.Recibidos.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.Recibidos.Size = new System.Drawing.Size(394, 411);
+            this.Recibidos.TabIndex = 38;
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.HeaderText = "Recibido";
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            this.dataGridViewTextBoxColumn2.ReadOnly = true;
+            // 
             // ChatDescon
             // 
-            this.ChatDescon.Location = new System.Drawing.Point(609, 7);
+            this.ChatDescon.Location = new System.Drawing.Point(817, 22);
             this.ChatDescon.Margin = new System.Windows.Forms.Padding(4);
             this.ChatDescon.Name = "ChatDescon";
             this.ChatDescon.Size = new System.Drawing.Size(116, 45);
@@ -507,21 +573,21 @@
             this.dataGridViewTextBoxColumn1});
             this.Enviados.Enabled = false;
             this.Enviados.GridColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Enviados.Location = new System.Drawing.Point(314, 44);
+            this.Enviados.Location = new System.Drawing.Point(426, 44);
             this.Enviados.Name = "Enviados";
             this.Enviados.ReadOnly = true;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.Enviados.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle10.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle10.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Enviados.RowHeadersDefaultCellStyle = dataGridViewCellStyle10;
             this.Enviados.RowHeadersVisible = false;
             this.Enviados.RowTemplate.Height = 24;
             this.Enviados.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.Enviados.Size = new System.Drawing.Size(287, 238);
+            this.Enviados.Size = new System.Drawing.Size(383, 411);
             this.Enviados.TabIndex = 36;
             // 
             // dataGridViewTextBoxColumn1
@@ -532,7 +598,7 @@
             // 
             // EnviarMensaje
             // 
-            this.EnviarMensaje.Location = new System.Drawing.Point(609, 283);
+            this.EnviarMensaje.Location = new System.Drawing.Point(817, 447);
             this.EnviarMensaje.Margin = new System.Windows.Forms.Padding(4);
             this.EnviarMensaje.Name = "EnviarMensaje";
             this.EnviarMensaje.Size = new System.Drawing.Size(116, 34);
@@ -543,21 +609,11 @@
             // 
             // MensajeChat
             // 
-            this.MensajeChat.Location = new System.Drawing.Point(21, 289);
+            this.MensajeChat.Location = new System.Drawing.Point(21, 452);
             this.MensajeChat.Margin = new System.Windows.Forms.Padding(4);
             this.MensajeChat.Name = "MensajeChat";
-            this.MensajeChat.Size = new System.Drawing.Size(580, 22);
+            this.MensajeChat.Size = new System.Drawing.Size(788, 22);
             this.MensajeChat.TabIndex = 33;
-            // 
-            // ChatLbl
-            // 
-            this.ChatLbl.AutoSize = true;
-            this.ChatLbl.Location = new System.Drawing.Point(18, 24);
-            this.ChatLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.ChatLbl.Name = "ChatLbl";
-            this.ChatLbl.Size = new System.Drawing.Size(145, 17);
-            this.ChatLbl.TabIndex = 32;
-            this.ChatLbl.Text = "Estas chateando con:";
             // 
             // Host
             // 
@@ -569,66 +625,45 @@
             this.Host.TabIndex = 33;
             this.Host.Visible = false;
             // 
-            // Invitado
+            // Nick1
             // 
-            this.Invitado.AutoSize = true;
-            this.Invitado.Location = new System.Drawing.Point(868, 524);
-            this.Invitado.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.Invitado.Name = "Invitado";
-            this.Invitado.Size = new System.Drawing.Size(0, 17);
-            this.Invitado.TabIndex = 34;
-            this.Invitado.Visible = false;
+            this.Nick1.AutoSize = true;
+            this.Nick1.Location = new System.Drawing.Point(868, 524);
+            this.Nick1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Nick1.Name = "Nick1";
+            this.Nick1.Size = new System.Drawing.Size(0, 17);
+            this.Nick1.TabIndex = 34;
+            this.Nick1.Visible = false;
             // 
-            // Recibidos
+            // Nick2
             // 
-            this.Recibidos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.Recibidos.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
-            this.Recibidos.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Recibidos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.Recibidos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn2});
-            this.Recibidos.Enabled = false;
-            this.Recibidos.GridColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Recibidos.Location = new System.Drawing.Point(32, 44);
-            this.Recibidos.Name = "Recibidos";
-            this.Recibidos.ReadOnly = true;
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle10.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle10.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.Recibidos.RowHeadersDefaultCellStyle = dataGridViewCellStyle10;
-            this.Recibidos.RowHeadersVisible = false;
-            this.Recibidos.RowTemplate.Height = 24;
-            this.Recibidos.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.Recibidos.Size = new System.Drawing.Size(287, 238);
-            this.Recibidos.TabIndex = 38;
+            this.Nick2.AutoSize = true;
+            this.Nick2.Location = new System.Drawing.Point(492, 265);
+            this.Nick2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Nick2.Name = "Nick2";
+            this.Nick2.Size = new System.Drawing.Size(0, 17);
+            this.Nick2.TabIndex = 35;
+            this.Nick2.Visible = false;
             // 
-            // dataGridViewTextBoxColumn2
+            // Nick3
             // 
-            this.dataGridViewTextBoxColumn2.HeaderText = "Recibido";
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            this.dataGridViewTextBoxColumn2.ReadOnly = true;
+            this.Nick3.AutoSize = true;
+            this.Nick3.Location = new System.Drawing.Point(500, 273);
+            this.Nick3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Nick3.Name = "Nick3";
+            this.Nick3.Size = new System.Drawing.Size(0, 17);
+            this.Nick3.TabIndex = 36;
+            this.Nick3.Visible = false;
             // 
-            // Bienvenido
+            // Cont
             // 
-            this.Bienvenido.AutoSize = true;
-            this.Bienvenido.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Bienvenido.Location = new System.Drawing.Point(285, 42);
-            this.Bienvenido.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.Bienvenido.Name = "Bienvenido";
-            this.Bienvenido.Size = new System.Drawing.Size(404, 69);
-            this.Bienvenido.TabIndex = 32;
-            this.Bienvenido.Text = "Bienvenido titi";
-            this.Bienvenido.Visible = false;
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Conectados";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
+            this.Cont.AutoSize = true;
+            this.Cont.Location = new System.Drawing.Point(508, 281);
+            this.Cont.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Cont.Name = "Cont";
+            this.Cont.Size = new System.Drawing.Size(0, 17);
+            this.Cont.TabIndex = 37;
+            this.Cont.Visible = false;
             // 
             // Form1
             // 
@@ -636,13 +671,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(985, 547);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.Invitado);
+            this.Controls.Add(this.Cont);
+            this.Controls.Add(this.Nick3);
+            this.Controls.Add(this.Nick2);
+            this.Controls.Add(this.Desconectar);
+            this.Controls.Add(this.Nick1);
             this.Controls.Add(this.Host);
             this.Controls.Add(this.Chat);
-            this.Controls.Add(this.Invitacion);
-            this.Controls.Add(this.Desconectar);
             this.Controls.Add(this.ConectarButton);
+            this.Controls.Add(this.groupBox1);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
@@ -650,13 +687,13 @@
             this.TransparencyKey = System.Drawing.Color.Maroon;
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ListaConectados)).EndInit();
             this.Invitacion.ResumeLayout(false);
             this.Invitacion.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ListaConectados)).EndInit();
             this.Chat.ResumeLayout(false);
             this.Chat.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Enviados)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Recibidos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Enviados)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -699,7 +736,7 @@
         private System.Windows.Forms.TextBox MensajeChat;
         private System.Windows.Forms.Label ChatLbl;
         private System.Windows.Forms.Label Host;
-        private System.Windows.Forms.Label Invitado;
+        private System.Windows.Forms.Label Nick1;
         private System.Windows.Forms.DataGridView Enviados;
         private System.Windows.Forms.Button ChatDescon;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
@@ -707,6 +744,9 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private System.Windows.Forms.Label Bienvenido;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.Label Nick2;
+        private System.Windows.Forms.Label Nick3;
+        private System.Windows.Forms.Label Cont;
     }
 }
 
